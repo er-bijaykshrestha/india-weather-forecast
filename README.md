@@ -1,4 +1,4 @@
-# 🌦️ India Weather Analysis & Temperature Forecasting
+# India Weather Analysis & Temperature Forecasting
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/app-Streamlit-ff4b4b)
@@ -6,7 +6,7 @@
 
 Analysis of 45 years of daily weather data for 8 Indian cities, a comparison of six forecasting models, and an interactive dashboard that predicts the next 12 months of temperature.
 
-**🔗 Live demo:** (http://192.168.1.3:8501)
+**🔗 Live demo:** (https://india-weather-forecast-f9xb49fncz3oh5dap92bwz.streamlit.app/)
 
 ![Dashboard](reports/figures/dashboard.png)
 
