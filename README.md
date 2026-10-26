@@ -27,6 +27,7 @@ Analysis of 45 years of daily weather data for 8 Indian cities, a comparison of 
 - **Data validation:** NASA POWER compared against a second source (ERA5). The sources agree on year-to-year variability but not on long-term trends in most cities, so trend results are reported with caution
 - **Forecasting:** 6 methods compared with rolling-origin cross-validation and a held-out 2026 test
 - **App:** Streamlit dashboard with forecasts, uncertainty bands, climate trends and model comparison
+-    ![Project workflow](reports/figures/project_workflow.png)
 
 ## Results
 
