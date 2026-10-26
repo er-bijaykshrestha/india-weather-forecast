@@ -1,0 +1,49 @@
+city,model,MAE,RMSE,MAPE,coverage_80
+Bengaluru,Climatology,0.9841,1.2823,3.8695,
+Bengaluru,Linear regression,1.0638,1.4257,4.1166,55.5556
+Bengaluru,Prophet,0.9755,1.2612,3.7837,66.6667
+Bengaluru,SARIMA,1.095,1.3651,4.2897,66.6667
+Bengaluru,Seasonal naive,1.2566,1.4292,4.8919,
+Bengaluru,XGBoost,0.9571,1.2425,3.7,
+Chennai,Climatology,0.9822,1.2295,3.3071,
+Chennai,Linear regression,0.9136,1.1349,3.0927,55.5556
+Chennai,Prophet,0.9239,1.1275,3.1136,66.6667
+Chennai,SARIMA,0.9187,1.1791,3.0532,55.5556
+Chennai,Seasonal naive,0.8742,1.093,2.8996,
+Chennai,XGBoost,0.9707,1.3049,3.2016,
+Delhi,Climatology,0.5583,0.6787,2.3351,
+Delhi,Linear regression,0.9292,1.0586,3.8755,100.0
+Delhi,Prophet,0.714,0.9172,3.0249,100.0
+Delhi,SARIMA,0.7174,0.8176,2.9871,100.0
+Delhi,Seasonal naive,0.8117,0.9273,3.1406,
+Delhi,XGBoost,0.5754,0.7035,2.3342,
+Hyderabad,Climatology,1.2282,1.3056,4.7669,
+Hyderabad,Linear regression,1.2895,1.3944,4.9421,55.5556
+Hyderabad,Prophet,1.362,1.4356,5.2139,44.4444
+Hyderabad,SARIMA,1.0638,1.1642,3.8434,77.7778
+Hyderabad,Seasonal naive,1.7461,1.9265,6.445,
+Hyderabad,XGBoost,1.3626,1.6384,4.6635,
+Jaipur,Climatology,0.8539,0.9643,3.4294,
+Jaipur,Linear regression,0.7107,0.9442,3.3694,88.8889
+Jaipur,Prophet,0.8678,1.0392,3.5796,77.7778
+Jaipur,SARIMA,0.7569,0.8428,3.2518,100.0
+Jaipur,Seasonal naive,1.3215,1.6816,4.9539,
+Jaipur,XGBoost,0.8602,1.0727,3.4573,
+Kolkata,Climatology,0.6676,0.8489,2.9469,
+Kolkata,Linear regression,0.7771,0.9381,3.4457,77.7778
+Kolkata,Prophet,0.8597,1.053,3.8177,66.6667
+Kolkata,SARIMA,0.5185,0.5973,2.1046,100.0
+Kolkata,Seasonal naive,0.7524,0.9939,3.4215,
+Kolkata,XGBoost,0.592,0.6926,2.24,
+Mumbai,Climatology,0.7734,0.9522,2.6563,
+Mumbai,Linear regression,0.7972,0.9461,2.7664,66.6667
+Mumbai,Prophet,0.8347,0.949,2.9127,66.6667
+Mumbai,SARIMA,0.9327,1.069,3.2475,66.6667
+Mumbai,Seasonal naive,1.2432,1.5445,4.3019,
+Mumbai,XGBoost,1.3359,1.6188,4.6181,
+Shimla,Climatology,0.5601,0.6685,2.7887,
+Shimla,Linear regression,0.8287,0.9558,4.0201,100.0
+Shimla,Prophet,0.6624,0.8212,3.3124,100.0
+Shimla,SARIMA,0.6555,0.793,3.2596,100.0
+Shimla,Seasonal naive,1.1177,1.3804,6.0786,
+Shimla,XGBoost,0.7174,0.822,3.5655,

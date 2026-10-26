@@ -1,0 +1,10 @@
+{
+  "folders": [{ "path": "." }],
+  "settings": {
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "python.terminal.activateEnvironment": true
+  },
+  "extensions": {
+    "recommendations": ["ms-python.python", "ms-toolsai.jupyter"]
+  }
+}
