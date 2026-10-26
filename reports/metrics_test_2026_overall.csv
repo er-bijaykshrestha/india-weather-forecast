@@ -1,0 +1,8 @@
+,MAE,RMSE,MAPE,coverage_80,skill_vs_seasonal_naive_%
+Selected (best per city),0.8084,0.9887,3.1536,88.8889,29.1121
+Climatology,0.826,1.0201,3.2625,,27.5741
+SARIMA,0.8323,1.0072,3.2546,83.3333,27.016
+Prophet,0.9,1.0913,3.5948,73.6111,21.0825
+Linear regression,0.9137,1.1161,3.7035,75.0,19.8777
+XGBoost,0.9214,1.1912,3.4725,,19.2041
+Seasonal naive,1.1404,1.4105,4.5166,,0.0

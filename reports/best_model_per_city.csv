@@ -1,0 +1,9 @@
+,best_backtest_model,final_model_used
+Bengaluru,SARIMA,SARIMA
+Chennai,Climatology,SARIMA
+Delhi,SARIMA,SARIMA
+Hyderabad,SARIMA,SARIMA
+Jaipur,SARIMA,SARIMA
+Kolkata,SARIMA,SARIMA
+Mumbai,Climatology,SARIMA
+Shimla,Climatology,SARIMA
