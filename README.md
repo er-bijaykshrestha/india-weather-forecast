@@ -6,7 +6,10 @@
 
 Analysis of 45 years of daily weather data for 8 Indian cities, a comparison of six forecasting models, and an interactive dashboard that predicts the next 12 months of temperature.
 
-**🔗 Live demo:** (https://india-weather-forecast-f9xb49fncz3oh5dap92bwz.streamlit.app/)
+## **🔗 Live demo:** 
+
+(https://india-weather-forecast-f9xb49fncz3oh5dap92bwz.streamlit.app/)
+
 
 ## 🎥 Demo video
 
