@@ -8,7 +8,7 @@ Analysis of 45 years of daily weather data for 8 Indian cities, a comparison of 
 
 ## **🔗 Live demo:** 
 
-** Link 🔗: ** (https://india-weather-forecast-f9xb49fncz3oh5dap92bwz.streamlit.app/)
+# Link 🔗: (https://india-weather-forecast-f9xb49fncz3oh5dap92bwz.streamlit.app/)
 
 
 ## 🎥 Demo video
