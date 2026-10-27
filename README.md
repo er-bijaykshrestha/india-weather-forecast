@@ -10,7 +10,7 @@ Analysis of 45 years of daily weather data for 8 Indian cities, a comparison of 
 
 ## 🎥 Demo video
 
-[![Watch the demo video](reports/figures/dashboard.png)]([https://drive.google.com/file/d/YOUR_FILE_ID/view](https://drive.google.com/file/d/15PGejDQBdKRAPqAxZefCMIz7B9YvLO2l/view))
+[![Watch the demo video]]([https://drive.google.com/file/d/YOUR_FILE_ID/view](https://drive.google.com/file/d/15PGejDQBdKRAPqAxZefCMIz7B9YvLO2l/view))
 
 *Click the image to watch demo (Google Drive).*
 
