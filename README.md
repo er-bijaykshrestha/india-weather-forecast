@@ -110,30 +110,6 @@ india-weather-forecast/
 └── .vscode/                      # VS Code settings
 ```
 
-## Reproduce it
-1. Install Python 3.10+ and VS Code with the **Python** and **Jupyter** extensions.
-2. Open the folder in VS Code (or open `india-weather-forecast.code-workspace`). The workspace sets `jupyter.notebookFileRoot` so notebooks run from the project root.
-3. Create an environment and install the packages:
-   ```bash
-   python -m venv .venv
-   # Windows: .venv\Scripts\activate     Mac/Linux: source .venv/bin/activate
-   pip install -r requirements-notebooks.txt
-   ```
-4. Run the notebooks **in order** (select the `.venv` kernel, then *Run All*):
-   `01` creates `data/processed/india_weather_daily.csv` · `02` analysis and ERA5 validation · `03` forecasting and the files in `reports/`
-5. Build the app data and launch the dashboard:
-   ```bash
-   python prepare_data.py data/processed/india_weather_daily.csv
-   streamlit run app.py
-   ```
-
-
-## Deploy for free
-
-1. Push this repo to GitHub (it must include `data/monthly_temperature.csv` and the CSVs in `reports/`)
-2. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub and click **New app**
-3. Select the repo, branch `main`, and main file `app.py`
-
 ## Limitations
 
 - **Gridded model data, not station readings.** Each value represents a ~50 km grid cell. Absolute temperatures can be biased, especially in mountain cities such as Shimla, where the grid cell sits well below the town. The project focuses on forecasting accuracy and anomalies.
