@@ -8,7 +8,8 @@ Analysis of 45 years of daily weather data for 8 Indian cities, a comparison of 
 
 ## **🔗 Live demo:** 
 
-Link 🔗: (https://india-weather-forecast-f9xb49fncz3oh5dap92bwz.streamlit.app/)
+Link 🔗:
+ (https://india-weather-forecast-f9xb49fncz3oh5dap92bwz.streamlit.app/)
 
 
 ## 🎥 Demo video
@@ -84,11 +85,6 @@ Mean absolute error in °C, all cities (lower is better):
 
 ![Next 12 months](reports/figures/12_next_12_months_forecast.png)
 
-## Method
-1. **Notebook 1:** download and clean daily data (NASA POWER API)
-2. **Notebook 2:** exploratory analysis and validation against ERA5
-3. **Notebook 3:** forecasting. Models are selected on a rolling-origin backtest (train to year Y, predict the next 12 months, repeated for 5 origins). 2026 is a final test that was never used for selection.
-4. **App:** `app.py` reads the monthly data and the forecast/metric files from Notebook 3
 
 ## Project structure
 ```
@@ -131,14 +127,15 @@ india-weather-forecast/
    streamlit run app.py
    ```
 
-Notebook 1 downloads data from the NASA POWER API and Notebook 2 downloads ERA5 from Open-Meteo, so you need an internet connection. Runtime is roughly 5 to 15 minutes in total.
 
 ## Deploy for free
+
 1. Push this repo to GitHub (it must include `data/monthly_temperature.csv` and the CSVs in `reports/`)
 2. Go to [share.streamlit.io](https://share.streamlit.io), sign in with GitHub and click **New app**
 3. Select the repo, branch `main`, and main file `app.py`
 
 ## Limitations
+
 - **Gridded model data, not station readings.** Each value represents a ~50 km grid cell. Absolute temperatures can be biased, especially in mountain cities such as Shimla, where the grid cell sits well below the town. The project focuses on forecasting accuracy and anomalies.
 - **Monthly resolution.** The forecasts are monthly averages, not daily or weather forecasts.
 - **Not an official forecast.** For warnings and official forecasts, use the India Meteorological Department (IMD).
