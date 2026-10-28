@@ -27,8 +27,6 @@ Link 🔗:
 - [Results gallery](#results-gallery)
 - [Method](#method)
 - [Project structure](#project-structure)
-- [Reproduce it](#reproduce-it)
-- [Deploy for free](#deploy-for-free)
 - [Limitations](#limitations)
 - [Future work](#future-work)
 
@@ -54,6 +52,7 @@ Mean absolute error in °C, all cities (lower is better):
 | Seasonal naive (same month last year) | 1.16 | 1.14 |
 
 **What I learned**
+
 - SARIMA was the best overall model (about 27 to 30% better than the seasonal-naive baseline), with well-calibrated 80% prediction intervals (80.0% coverage in the backtest, 84.7% on 2026).
 - A simple monthly average nearly matches SARIMA: monthly temperature is dominated by the seasonal cycle, and complex models such as XGBoost did not help.
 - The 2026 test has only 9 months, so differences between the top models are small relative to the noise.
@@ -105,8 +104,8 @@ india-weather-forecast/
 │   └── monthly_temperature.csv   # made by prepare_data.py
 ├── reports/                      # forecasts, metrics and figures from the notebooks
 │   └── figures/
-├── docs/                         # LinkedIn post draft, push guide
-├── scripts/                      # pre-push checks and push helper
+├── docs/                         
+├── scripts/                      
 └── .vscode/                      # VS Code settings
 ```
 
